@@ -1,6 +1,5 @@
 // Created by Blake Wilson on 8/13/2025.
 // AddTwoNumbers.cpp
-// Create variables needed for this program.
 
 #include <iostream>
 using namespace std;
@@ -22,4 +21,5 @@ int main() {
 
     return 0;
 }
+
 
