@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int number;
+    cout << "Enter an integer: ";
+    cin >> number;
+    cout << "The tripled number is: " << number * 3 << endl;
+
+    return 0;
+}
