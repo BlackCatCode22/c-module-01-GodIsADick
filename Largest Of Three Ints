@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    cout << "Hello and welcome to my Largest of three ints program. \n";
+    cout << "\n Hello and welcome to my Largest of three ints program. \n\n";
 
     //Create all variables needed.
 
@@ -25,17 +25,21 @@ int main() {
     cin >> num3;
     cout << "You entered " << num3 << " for the value of num3" << endl << endl;
 
+    //Begin comparing numbers two at a time.
+    //First num1 will be compared to num2. If it's greater, it will then be compared to num3.
+    //If num1 is not greater than num2, then num2 will then be compared to num3.
+
     if (num1 > num2) {
         if (num1 > num3) {
-            cout << num1 << " is greater than " << num3 << " and " << num2 << endl;
+            cout << num1 << " is greater than " << num3 << " and " << num2 << ". It is therefore the largest integer." << endl;
         } else {
-            cout << num3 << " is greater than " << num2 << " and " << num1 << endl;
+            cout << num3 << " is greater than " << num2 << " and " << num1 << ". It is therefore the largest integer." << endl;
         }
     } else {
         if (num2 > num3) {
-            cout << num2 << " is greater than " << num3 << " and " << num1 << endl;
+            cout << num2 << " is greater than " << num3 << " and " << num1 << ". It is therefore the largest integer." << endl;
         } else {
-            cout << num3 << " is greater than " << num1 << " and " << num2 << endl;
+            cout << num3 << " is greater than " << num1 << " and " << num2 << ". It is therefore the largest integer." << endl;
         }
     }
 
